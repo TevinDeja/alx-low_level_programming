@@ -1,11 +1,8 @@
 #include <stdio.h>
 /**
- * 
  * main - C program that prints exactly the given word.
  *
  * Return: Always 0 (Success)
- * 
- *
  */
 int main(void)
 {
