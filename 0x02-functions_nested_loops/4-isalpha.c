@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * _isalpha - checks for alphabetic character
- *
+ *  _isalpha - checks for alphabetic character
+ *  @c: parameter to be checked
  *  Return: Always 0
  */
 
-int _isaplha(int c)
+int _isalpha(int c)
 {
-	return ((c >= "a" && c <= "z") || (c >= "A" && c <= "Z"));
+	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
 }
