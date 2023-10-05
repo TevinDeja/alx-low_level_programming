@@ -32,7 +32,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		s[m] = s1[m];
 		m++;
 	}
-	while (n < t && m < (m + n))
+	while (n < t && m < (r + n))
 		s[m++] = s2[p++];
 	while (n >= t && m < (r + t))
 		s[m++] = s2[p++];
