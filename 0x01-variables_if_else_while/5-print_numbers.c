@@ -5,14 +5,17 @@
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-int i = 0;
-while (i < 10)
-{
-printf("%d", i);
-i++;
-}
-printf("\n");
-return (0);
+	int t;
+
+	t = 48;
+	while (t < 58)
+	{
+		putchar(t);
+		t++;
+	}
+	putchar('\n');
+	return (0);
 }

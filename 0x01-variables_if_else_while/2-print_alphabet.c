@@ -5,16 +5,17 @@
  *
  * Return: Always 0
  */
+
 int main(void)
 {
-	char t;
+	char alpha;
 
-	t = 'a';
+	alpha = 'a';
 
 	while
-	       (t <= 'z') {
-		putchar(t);
-		t++;
+	       (alpha <= 'z') {
+		putchar(alpha);
+		alpha++;
 	}
 	putchar('\n');
 	return (0);
