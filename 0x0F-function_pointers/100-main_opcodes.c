@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(2);
 	}
-	s = (char*)main;
+	s = (char *)main;
 
 	for (n = 0 ; n < space ; n++)
 	{
